@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/streadway/amqp"
 )
 
 func failOnError(err error, msg string) {
